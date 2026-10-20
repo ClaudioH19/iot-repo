@@ -1,0 +1,30 @@
+# Referencia rápida (consulta, no memorizar)
+
+- `const int PIN = 8;` define una constante entera.
+- `float temperatura = 24.5;` guarda un decimal.
+- `bool activo = false;` guarda verdadero o falso.
+- `int muestras[] = {20, 21, 22};` define un arreglo.
+- `#include <DHT.h>` agrega una biblioteca.
+- `// comentario` no se ejecuta.
+- `void setup() { ... }` se ejecuta una vez al inicio.
+- `void loop() { ... }` se repite continuamente.
+- `pinMode(8, OUTPUT);` prepara el pin digital 8 como salida.
+- `digitalWrite(8, HIGH);` pone una salida digital en alto.
+- `digitalWrite(8, LOW);` pone una salida digital en bajo.
+- `digitalRead(2);` lee una entrada digital.
+- `analogRead(A0);` lee una entrada analógica.
+- `Serial.begin(9600);` habilita la comunicación serie.
+- `Serial.print("Hola");` imprime sin salto de línea.
+- `Serial.println("Hola");` imprime con salto de línea.
+- `delay(2000);` espera 2000 milisegundos.
+- `sensor.readTemperature();` lee °C del DHT22.
+- `sensor.readHumidity();` lee la humedad relativa del DHT22.
+- `if (temperatura >= 30) { ... }` evalúa una condición.
+- `else { ... }` indica la alternativa cuando el `if` es falso.
+- `a && b` comprueba que ambas condiciones son verdaderas.
+- `a || b` comprueba que alguna condición sea verdadera.
+- `contador++;` incrementa en uno.
+- `for (int i=0; i<3; i++) { ... }` repite un bloque tres veces.
+- `while (contador<3) { ... }` repite mientras se cumpla una condición.
+- `return;` termina la ejecución de la función actual.
+- `isnan(valor)` detecta una lectura que no es numérica.

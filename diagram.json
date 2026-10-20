@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "author": "Material del taller Git + Wokwi",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 30,
+      "left": -310,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht",
+      "top": -135,
+      "left": -10,
+      "attrs": {
+        "temperature": "24",
+        "humidity": "65"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rRojo",
+      "top": -25,
+      "left": 165,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledRojo",
+      "top": -60,
+      "left": 315,
+      "attrs": {
+        "color": "red",
+        "label": "CALOR"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rAzul",
+      "top": 155,
+      "left": 165,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledAzul",
+      "top": 120,
+      "left": 315,
+      "attrs": {
+        "color": "blue",
+        "label": "HUMEDAD"
+      }
+    }
+  ],
+  "connections": [],
+  "dependencies": {}
+}
